@@ -1,6 +1,6 @@
-FROM node:16
+FROM node:lts-alpine
 
-WORKDIR /usr/src/app
+WORKDIR '/var/www/app'
 
 COPY package*.json ./
 
